@@ -25,7 +25,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       context: {
         slug: habitacion.slug
       },
-      defer: true,
     });
   });
 }
